@@ -76,6 +76,7 @@
 }
 #button:hover{
     box-shadow: 2px 3px 10px 2px rgba(0, 0, 0,1);
+    background-color: rgb(240, 240, 240);
 }
 
 .handles{
@@ -94,9 +95,13 @@
     background-color: #bccce6;
     border-radius: 10px;
     margin-right: 5px;
-    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0,.8);
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0,.6);
     width: 50px;
     text-align: center;
+    cursor: pointer;
+}
+.handles .fa:hover{
+    background-color: #abc2e7;
 }
 
 #popmessage{
