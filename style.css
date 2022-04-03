@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #3a50d9;
+    padding: 30px 40px;
+}
+.container h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font: italic bold 60px Georgia, Serif;
+    text-shadow: -4px 4px 0 #0a0e27, -11px 5px 0 #3a50d9;
+}
+
+.games_wraper{
+    width: 80%;
+    background-color: #3a50d9;
+    margin: 40px auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 30px;
+}
+.games_wraper a{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 10px;
+    border-radius: 6px;
+    margin-top: 15px;
+}
+.games_wraper a img{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.games_wraper a h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+@media screen and (max-device-width: 550px) {
+    .container h1{
+        font-size: 30px;
+        text-shadow: -3px 2px 0 #0a0e27, -11px 5px 0 #3a50d9;
+
+    }
+}
