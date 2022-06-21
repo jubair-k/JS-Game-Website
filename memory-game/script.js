@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',() => {
             cardChosenId.push(cardId)
             this.setAttribute('src',cardArray[cardId].img)
             if(cardsChosen.length ==2){
-                setTimeout(checkForMatch,500)
+                setTimeout(checkForMatch,1500)
                 images=document.querySelectorAll('.grid img')
                 images.forEach(element => element.classList.remove('select') );    
             }    

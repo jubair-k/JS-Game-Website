@@ -174,6 +174,7 @@ document.addEventListener("DOMContentLoaded",function(){
             squers[currentIndex].classList.remove('frog')
             clearInterval(timerId)
             document.removeEventListener('keyup',moveFrog)
+            document.removeEventListener('click',moveFrogTouch,false);
             document.removeEventListener('touchstart',moveFrogTouch,false);
         }
     }
@@ -188,6 +189,7 @@ document.addEventListener("DOMContentLoaded",function(){
             squers[currentIndex].classList.remove('frog')
             clearInterval(timerId)
             document.removeEventListener('keyup',moveFrog)
+            document.removeEventListener('click',moveFrogTouch,false);
             document.removeEventListener('touchstart',moveFrogTouch,false);
         }
 
@@ -233,6 +235,7 @@ document.addEventListener("DOMContentLoaded",function(){
         else{
             timerId=setInterval(movePeices,1000)
             document.addEventListener('keyup',moveFrog);
+            document.addEventListener('click',moveFrogTouch,false);
             document.addEventListener('touchstart',moveFrogTouch,false);
         }
     })
